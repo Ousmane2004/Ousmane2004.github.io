@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+ 
+  .container{
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-image img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: #008000;
+  }
+  
+  .product-description {
+    color: #666;
+  }
+  
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.form-check {
+    margin: none;
+    padding: none;
+}
+
+.hero {
+    text-align: center;
+    background-color: #efefef;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.product-item {
+    text-align: center;
+    width: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-icons a:hover {
+    text-decoration: underline;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.order form label {
+    margin: 10px 0 5px 0;
+}
+
+.order form input, .order form select {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.order form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.order form button:hover {
+    background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
